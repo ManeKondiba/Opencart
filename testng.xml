@@ -12,9 +12,9 @@
   <parameter name="browser" value="edge"/>
   
     <classes>
-      <!--class name="testClases.TC001_AccountRegistrationTest"/>-->
-      <!--class name="testClases.TC002LoginTest"/>-->
-      <class name="testClases.TC003_LoginDDT"/>
+      <class name="testClases.TC001_AccountRegistrationTest"/>
+      <class name="testClases.TC002LoginTest"/>
+      <!--class name="testClases.TC003_LoginDDT"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

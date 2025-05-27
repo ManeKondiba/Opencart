@@ -1,5 +1,8 @@
-15:26:01.278 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-15:26:01.298 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-15:26:05.996 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-15:26:06.002 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-15:26:19.525 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
+03:51:01.084 [main] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on MyAccount.. 
+03:51:01.669 [main] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on Registerlink.. 
+03:51:01.674 [main] INFO  testClases.TC001_AccountRegistrationTest -  Providing Customers Details.. 
+03:51:03.682 [main] INFO  testClases.TC001_AccountRegistrationTest - Validating expected message..
+03:51:03.738 [main] INFO  testClases.TC001_AccountRegistrationTest - Test passed
+03:51:03.738 [main] INFO  testClases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+03:51:09.999 [main] INFO  testClases.TC002LoginTest - ******Staring TC002_Logintest*******
+03:51:11.697 [main] INFO  testClases.TC002LoginTest - *** Finished TC002 LoginTest**
