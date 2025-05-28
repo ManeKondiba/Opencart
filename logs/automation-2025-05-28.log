@@ -1,54 +1,50 @@
-15:26:01.278 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-15:26:01.298 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-15:26:05.996 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-15:26:06.002 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-15:26:19.525 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-00:20:29.613 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-00:20:34.403 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-00:20:34.430 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-00:20:39.135 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-00:20:39.143 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-00:20:43.691 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-00:20:43.698 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-00:20:57.833 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-00:20:57.836 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-00:21:02.569 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-00:21:02.575 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-00:21:16.988 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-01:47:48.072 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-01:47:53.938 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-01:47:53.969 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-01:47:59.418 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-01:47:59.427 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-01:48:04.750 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-01:48:04.757 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-01:48:19.375 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-01:48:19.383 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-01:48:24.452 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-01:48:24.460 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-01:48:39.027 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:41:41.325 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:41:47.340 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:41:47.385 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:41:52.758 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:41:52.769 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:41:58.218 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:41:58.228 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:42:13.000 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:42:13.008 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:42:18.528 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:42:18.535 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:42:33.211 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:49:21.701 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:49:27.049 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:49:27.092 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:49:32.531 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:49:32.540 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:49:38.090 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:49:38.099 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:49:52.841 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:49:52.849 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:49:58.569 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:49:58.577 [main] INFO  testClases.TC003_LoginDDT - ***** stating TC_003_LoginDDT ******
-03:50:13.327 [main] INFO  testClases.TC003_LoginDDT - ***** Finished TC_003_LoginDDT ******
-03:51:00.852 [main] INFO  testClases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest ******
+03:51:01.084 [main] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on MyAccount.. 
+03:51:01.669 [main] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on Registerlink.. 
+03:51:01.674 [main] INFO  testClases.TC001_AccountRegistrationTest -  Providing Customers Details.. 
+03:51:03.682 [main] INFO  testClases.TC001_AccountRegistrationTest - Validating expected message..
+03:51:03.738 [main] INFO  testClases.TC001_AccountRegistrationTest - Test passed
+03:51:03.738 [main] INFO  testClases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+03:51:09.999 [main] INFO  testClases.TC002LoginTest - ******Staring TC002_Logintest*******
+03:51:11.697 [main] INFO  testClases.TC002LoginTest - *** Finished TC002 LoginTest**
+20:36:45.783 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+20:36:48.878 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Finish TC004_SearchFunctinalityTest*******
+22:01:14.254 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:01:14.906 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:01:16.335 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+22:03:45.845 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:03:46.494 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:03:47.701 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+22:07:21.216 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:07:22.551 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:07:22.938 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+22:09:43.599 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:09:44.171 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:09:45.311 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+22:13:57.889 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:13:58.456 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:13:59.573 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+22:21:31.712 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:21:32.312 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:21:33.411 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+22:21:33.746 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate Invalide product
+22:22:39.225 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:22:39.812 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:22:40.971 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+22:22:41.340 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate Invalide product
+22:27:08.704 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:27:09.347 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:27:10.476 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+22:43:17.621 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:43:19.036 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:43:19.451 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+22:50:20.171 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+22:50:20.898 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+22:50:22.069 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+23:00:40.146 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+23:00:40.718 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+23:00:41.868 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+23:02:01.631 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+23:02:02.201 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+23:02:03.335 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+23:02:03.698 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate Invalide product
+23:02:13.748 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Finish TC004_SearchFunctinalityTest*******

@@ -1,8 +1,5 @@
-03:51:01.084 [main] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on MyAccount.. 
-03:51:01.669 [main] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on Registerlink.. 
-03:51:01.674 [main] INFO  testClases.TC001_AccountRegistrationTest -  Providing Customers Details.. 
-03:51:03.682 [main] INFO  testClases.TC001_AccountRegistrationTest - Validating expected message..
-03:51:03.738 [main] INFO  testClases.TC001_AccountRegistrationTest - Test passed
-03:51:03.738 [main] INFO  testClases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
-03:51:09.999 [main] INFO  testClases.TC002LoginTest - ******Staring TC002_Logintest*******
-03:51:11.697 [main] INFO  testClases.TC002LoginTest - *** Finished TC002 LoginTest**
+23:06:22.726 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
+23:06:24.103 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
+23:06:24.497 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
+23:06:24.841 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate Invalide product
+23:06:34.881 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Finish TC004_SearchFunctinalityTest*******

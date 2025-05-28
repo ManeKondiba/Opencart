@@ -7,13 +7,24 @@
 	  <listener class-name="utilities.ExtentReportManager" />
   </listeners>
   
-  <test thread-count="5" name="Test">
+  <test thread-count="6" name="Test">
   <parameter name="os" value="Windows"/>
   <parameter name="browser" value="edge"/>
   
     <classes>
-      <class name="testClases.TC001_AccountRegistrationTest"/>
-      <class name="testClases.TC002LoginTest"/>
+      <!--class name="testClases.TC001_AccountRegistrationTest"/>-->
+      <!--class name="testClases.TC002LoginTest"/>-->
+      <!--class name="testClases.TC004_SearchFunctionalityTest"/>-->
+      <class name="testClases.TC005_CartPageTest"/>
+      
+      
+      
+      
+      
+      
+      
+      
+      
       <!--class name="testClases.TC003_LoginDDT"/>-->
     </classes>
   </test> <!-- Test -->

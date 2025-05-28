@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testClases.TC002LoginTest">
+      <class name="testClases.TC004_SearchFunctionalityTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verify_login"/>
+          <include name="SearchProduct"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testClases.TC002LoginTest -->
+      </class> <!-- testClases.TC004_SearchFunctionalityTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

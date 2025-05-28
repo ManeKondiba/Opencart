@@ -58,7 +58,7 @@ public class BaseClass {
 			//os
 			if(os.equalsIgnoreCase("windows"))
 			{
-				capabilities.setPlatform(Platform.WIN11);
+				capabilities.setPlatform(Platform.WIN10);
 			}
 			else if(os.equalsIgnoreCase("linux"))
 			{
@@ -135,13 +135,13 @@ public class BaseClass {
 	}
 
 	public String captureScreen(String tname) throws IOException {
-
+		 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 				
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		
-		String targetFilePath=System.getProperty("user.dir")+"\\screenshots\\" + tname + "_" + timeStamp + ".png";
+		String targetFilePath=System.getProperty("user.dir")+"/Screenshot/" + tname + "_" + timeStamp + ".png";
 		File targetFile=new File(targetFilePath);
 		
 		sourceFile.renameTo(targetFile);
