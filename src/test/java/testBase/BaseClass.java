@@ -21,11 +21,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 //import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 
@@ -33,14 +35,14 @@ import org.testng.annotations.Parameters;
 public class BaseClass {
 	
 	
-     public WebDriver driver;
+     public static WebDriver driver;
 	 public Logger logger;
 	public Properties p;
 	 
 	 
 	@BeforeClass(groups= {"Sanity","Regression","Master"})
 	@Parameters({"os", "browser"})
-	 public void setup(String os, String br) throws IOException 
+	 public void setup(@Optional("windows") String os,@Optional("chrome") String br) throws IOException 
 	{
 		
 		
@@ -58,7 +60,7 @@ public class BaseClass {
 			//os
 			if(os.equalsIgnoreCase("windows"))
 			{
-				capabilities.setPlatform(Platform.WIN10);
+				capabilities.setPlatform(Platform.WIN11);
 			}
 			else if(os.equalsIgnoreCase("linux"))
 			{
@@ -135,16 +137,19 @@ public class BaseClass {
 	}
 
 	public String captureScreen(String tname) throws IOException {
+		
+		 
 		 
 		String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 				
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 		
-		String targetFilePath=System.getProperty("user.dir")+"/Screenshot/" + tname + "_" + timeStamp + ".png";
+		String targetFilePath=System.getProperty("user.dir")+"\\Screenshot\\" + tname + "_" + timeStamp + ".png";
 		File targetFile=new File(targetFilePath);
 		
 		sourceFile.renameTo(targetFile);
+		//FileHandler.copy(sourceFile, targetFile); // safer than renameTo
 			
 		return targetFilePath;
 	}

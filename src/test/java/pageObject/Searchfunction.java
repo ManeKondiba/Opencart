@@ -6,6 +6,7 @@ import java.util.List;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class Searchfunction extends BasePage {
 
@@ -29,6 +30,7 @@ public class Searchfunction extends BasePage {
 	}
 	 
 	public boolean isProductFound(String productName) {
+		
         for (WebElement title : productTitles) {
             if (title.getText().toLowerCase().contains(productName.toLowerCase())) {
                 return true;
@@ -36,15 +38,13 @@ public class Searchfunction extends BasePage {
         }
         return false;
 	
-	
-	}}
+	}
 
 	
+}
+
 	
-	
-	
-	
-	
+
 	
 	
 	

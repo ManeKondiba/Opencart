@@ -1,5 +1,9 @@
-23:06:22.726 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Staring TC004_SearchFunctinalityTest*******
-23:06:24.103 [main] INFO  testClases.TC004_SearchFunctionalityTest - Login successful
-23:06:24.497 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate valide product
-23:06:24.841 [main] INFO  testClases.TC004_SearchFunctionalityTest - validate Invalide product
-23:06:34.881 [main] INFO  testClases.TC004_SearchFunctionalityTest - ******Finish TC004_SearchFunctinalityTest*******
+02:10:21.174 [main] ERROR testClases.TC006_CartPageTest - Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='quantity[268010]']"}
+  (Session info: chrome=137.0.7151.55)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2106786e57b85aa2d6416e4cf7d085c8, findElement {value=//input[@name='quantity[268010]'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.55, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: C:\Users\Pravin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59813/devtoo..., se:cdpVersion: 137.0.7151.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2106786e57b85aa2d6416e4cf7d085c8

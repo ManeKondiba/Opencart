@@ -15,7 +15,7 @@
       <!--class name="testClases.TC001_AccountRegistrationTest"/>-->
       <!--class name="testClases.TC002LoginTest"/>-->
       <!--class name="testClases.TC004_SearchFunctionalityTest"/>-->
-      <class name="testClases.TC005_CartPageTest"/>
+      <!--class name="testClases.TC005_detailPageTest"/>-->
       
       
       
