@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class TC001_AccountRegistrationTest extends BaseClass {
 	
 
-    @Test(groups={"Regression","Master"})
+    @Test(groups={"Regression","Master","Sanity"})
 	public void verify_account_registration() throws InterruptedException {
     	try {
     	logger.info("****** Starting TC001_AccountRegistrationTest ******");

@@ -14,7 +14,7 @@ public class TC004_SearchFunctionalityTest extends BaseClass {
 	
 	
 	
-	@Test
+	@Test(groups={"Regression","Sanity","Master"})
 	public void SearchProduct() {
 		logger.info("******Staring TC004_SearchFunctinalityTest*******");
 		

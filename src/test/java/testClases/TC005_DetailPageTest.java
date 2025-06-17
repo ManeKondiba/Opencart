@@ -16,7 +16,7 @@ import testBase.BaseClass;
 
 public class TC005_DetailPageTest extends BaseClass{
 	
-	@Test
+	@Test(groups={"Master","Sanity","Regression"})
 	public void verify_cart() {
 		
 		logger.info("******Staring TC005_DetailPageTest*******");

@@ -33,10 +33,7 @@
  </build>
   
   
-  
-  
 
-  
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 <dependency>
@@ -107,27 +104,6 @@
 	</dependency>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  	<dependency>
-  		<groupId>OpencartV121</groupId>
-  		<artifactId>OpencartV121</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  </dependencies>
+</dependencies>
   
 </project>

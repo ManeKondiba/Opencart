@@ -1,36 +1,36 @@
-00:17:53.895 [main] ERROR testClases.TC006_CartPageTest - Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[normalize-space()='View Cart']"}
+01:48:57.709 [TestNG-tests-1] INFO  testClases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+01:49:12.377 [TestNG-tests-1] INFO  testClases.TC002LoginTest - ******Staring TC002_Logintest*******
+01:49:19.497 [TestNG-tests-2] INFO  testClases.TC002LoginTest - ******Staring TC002_Logintest*******
+01:49:37.078 [TestNG-tests-3] INFO  testClases.TC002LoginTest - ******Staring TC002_Logintest*******
+01:49:39.352 [TestNG-tests-3] INFO  testClases.TC002LoginTest - *** Finished TC002 LoginTest**
+01:51:06.104 [TestNG-tests-2] INFO  testClases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest ******
+01:51:06.104 [TestNG-tests-1] INFO  testClases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest ******
+01:51:08.369 [TestNG-tests-1] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on MyAccount.. 
+01:51:09.398 [TestNG-tests-2] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on MyAccount.. 
+01:51:19.937 [TestNG-tests-1] ERROR testClases.TC001_AccountRegistrationTest - Test failed: element not interactable
   (Session info: MicrosoftEdge=137.0.3296.83)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [e5bab51ab0dc051858155e4d4cfabcd3, findElement {using=xpath, value=//strong[normalize-space()='View Cart']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52752}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52752/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e5bab51ab0dc051858155e4d4cfabcd3
-00:22:55.487 [main] ERROR testClases.TC006_CartPageTest - Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[normalize-space()='View Cart']"}
+Command: [7f594b836f4f251d20105c4787b15f39, clickElement {id=f.00A45F50DC52B4EBE6749C03FFC2DE2B.d.9313CEA8F94D7EFDB721AABAC383C5CC.e.73}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49741}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49741/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7f594b836f4f251d20105c4787b15f39)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 7f594b836f4f251d20105c4787b15f39
+01:51:19.947 [TestNG-tests-1] INFO  testClases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+01:51:26.689 [TestNG-tests-3] INFO  testClases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest ******
+01:51:27.193 [TestNG-tests-3] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on MyAccount.. 
+01:51:28.376 [TestNG-tests-3] INFO  testClases.TC001_AccountRegistrationTest -  Clicked on Registerlink.. 
+01:51:28.391 [TestNG-tests-3] INFO  testClases.TC001_AccountRegistrationTest -  Providing Customers Details.. 
+01:51:30.023 [TestNG-tests-2] ERROR testClases.TC001_AccountRegistrationTest - Test failed: element not interactable
   (Session info: MicrosoftEdge=137.0.3296.83)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
 Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [496536f6ee4e63a892868ea0c2584362, findElement {value=//strong[normalize-space()='View Cart'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53240}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53240/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 496536f6ee4e63a892868ea0c2584362
-00:24:37.845 [main] ERROR testClases.TC006_CartPageTest - Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[normalize-space()='View Cart']"}
-  (Session info: MicrosoftEdge=137.0.3296.83)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [153dae6115c775fbb3f1c68eef5a8862, findElement {value=//strong[normalize-space()='View Cart'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53424}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53424/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 153dae6115c775fbb3f1c68eef5a8862
-00:25:36.366 [main] ERROR testClases.TC006_CartPageTest - Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[normalize-space()='View Cart']"}
-  (Session info: MicrosoftEdge=137.0.3296.83)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [64ce7a853646be6b8bfdb8ecf044bf1f, findElement {using=xpath, value=//strong[normalize-space()='View Cart']}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53550}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53550/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 64ce7a853646be6b8bfdb8ecf044bf1f
+Command: [7f594b836f4f251d20105c4787b15f39, clickElement {id=f.00A45F50DC52B4EBE6749C03FFC2DE2B.d.9313CEA8F94D7EFDB721AABAC383C5CC.e.73}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49741}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49741/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7f594b836f4f251d20105c4787b15f39)] -> xpath: //a[normalize-space()='Register']]
+Session ID: 7f594b836f4f251d20105c4787b15f39
+01:51:30.025 [TestNG-tests-2] INFO  testClases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+01:51:30.708 [TestNG-tests-3] INFO  testClases.TC001_AccountRegistrationTest - Validating expected message..
+01:51:34.154 [TestNG-tests-3] INFO  testClases.TC001_AccountRegistrationTest - ***** Finished TC001_AccountRegistrationTest *****
+02:36:49.853 [main] INFO  testClases.TC001_AccountRegistrationTest - ****** Starting TC001_AccountRegistrationTest ******

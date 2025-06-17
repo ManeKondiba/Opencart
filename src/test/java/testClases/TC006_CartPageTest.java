@@ -15,7 +15,7 @@ import testBase.BaseClass;
 public class TC006_CartPageTest extends BaseClass {
 	
 	
-	@Test
+	@Test(groups={"Master","Sanity","Regression"})
 	public void verify_cartpage() {
 		
 		logger.info("******Staring TC005_cartPageTest*******");
@@ -48,6 +48,7 @@ public class TC006_CartPageTest extends BaseClass {
 	  //remove cart quantity
 	        cart.removeItem();
 	        System.out.println(cart.getEmptyCartMessage());
+	        Thread.sleep(3000);
 	       String  removeqty_msg=cart.getEmptyCartMessage();
 	       Assert.assertTrue(removeqty_msg.contains("Your shopping cart is empty!"),"Expected alert message not found");
 	   

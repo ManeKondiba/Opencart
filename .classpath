@@ -38,6 +38,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
-	<classpathentry kind="src" path="/OpencartV121"/>
+	<classpathentry kind="src" path="/OpencartV1212"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

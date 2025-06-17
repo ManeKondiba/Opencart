@@ -42,7 +42,7 @@ public class BaseClass {
 	 
 	@BeforeClass(groups= {"Sanity","Regression","Master"})
 	@Parameters({"os", "browser"})
-	 public void setup(@Optional("windows") String os,@Optional("edge") String br) throws IOException 
+	 public void setup( String os, String br) throws IOException 
 	{
 		
 		
@@ -60,7 +60,7 @@ public class BaseClass {
 			//os
 			if(os.equalsIgnoreCase("windows"))
 			{
-				capabilities.setPlatform(Platform.WIN11);
+				capabilities.setPlatform(Platform.WIN10);
 			}
 			else if(os.equalsIgnoreCase("linux"))
 			{

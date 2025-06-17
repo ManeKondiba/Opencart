@@ -8,6 +8,10 @@
   <parameter name="browser" value="edge"/>
     <classes>
       <class name="testClases.TC001_AccountRegistrationTest"/>
+      <!--class name="testClases.TC002LoginTest"/>-->
+       <!--class name="testClases.TC004_SearchFunctionalityTest"/>-->
+      <!--class name="testClases.TC005_DetailPageTest"/>-->
+      <!--class name="testClases.TC006_CartPageTest"/>-->
     </classes>
   </test> <!-- Test -->
   
@@ -17,6 +21,10 @@
   <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testClases.TC001_AccountRegistrationTest"/>
+      <!--class name="testClases.TC002LoginTest"/>-->
+       <!--class name="testClases.TC004_SearchFunctionalityTest"/>-->
+      <!--class name="testClases.TC005_DetailPageTest"/>-->
+      <!--class name="testClases.TC006_CartPageTest"/>-->
     </classes>
   </test> <!-- Test -->
   
@@ -25,6 +33,10 @@
   <parameter name="browser" value="firefox"/>
     <classes>
       <class name="testClases.TC001_AccountRegistrationTest"/>
+      <!--class name="testClases.TC002LoginTest"/>-->
+       <!--class name="testClases.TC004_SearchFunctionalityTest"/>-->
+      <!--class name="testClases.TC005_DetailPageTest"/>-->
+      <!--class name="testClases.TC006_CartPageTest"/>-->
     </classes>
   </test> <!-- Test -->
   
