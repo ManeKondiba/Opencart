@@ -1,9 +1,28 @@
-02:10:21.174 [main] ERROR testClases.TC006_CartPageTest - Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='quantity[268010]']"}
-  (Session info: chrome=137.0.7151.55)
+00:28:41.536 [main] ERROR testClases.TC006_CartPageTest - Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[normalize-space()='View Cart']"}
+  (Session info: MicrosoftEdge=137.0.3296.83)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.20.0', revision: '866c76ca80'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2106786e57b85aa2d6416e4cf7d085c8, findElement {value=//input[@name='quantity[268010]'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.55, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: C:\Users\Pravin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59813}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59813/devtoo..., se:cdpVersion: 137.0.7151.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2106786e57b85aa2d6416e4cf7d085c8
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4b1ed8de163217f66ca1b6476f9fadf9, findElement {using=xpath, value=//strong[normalize-space()='View Cart']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53870}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53870/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b1ed8de163217f66ca1b6476f9fadf9
+00:31:08.848 [main] ERROR testClases.TC006_CartPageTest - Test failed due to exception: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[normalize-space()='View Cart']"}
+  (Session info: MicrosoftEdge=137.0.3296.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4d0714d63563da64ea4f9f6a271c8399, findElement {value=//strong[normalize-space()='View Cart'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54130}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54130/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d0714d63563da64ea4f9f6a271c8399
+00:36:24.445 [main] ERROR testClases.TC006_CartPageTest - Test failed due to exception: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=137.0.3296.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a9c730224ecadbd8f08a2991c5722e88, clickElement {id=f.8F95601BD2AF9EBA8AD4A161B27158BE.d.534EE1BB09754AC084D4C381071D6BCC.e.112}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54668}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54668/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a9c730224ecadbd8f08a2991c5722e88)] -> xpath: //button[@type='button']//i[@class='fa fa-shopping-cart']]
+Session ID: a9c730224ecadbd8f08a2991c5722e88

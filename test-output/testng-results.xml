@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-30T02:38:21 IST" name="Default suite" finished-at="2025-05-30T02:38:29 IST" duration-ms="7989">
+  <suite started-at="2025-06-18T00:36:14 IST" name="Default suite" finished-at="2025-06-18T00:36:25 IST" duration-ms="11341">
     <groups>
     </groups>
-    <test started-at="2025-05-30T02:38:21 IST" name="Default test" finished-at="2025-05-30T02:38:29 IST" duration-ms="7989">
+    <test started-at="2025-06-18T00:36:14 IST" name="Default test" finished-at="2025-06-18T00:36:25 IST" duration-ms="11341">
       <class name="testClases.TC006_CartPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testClases.TC006_CartPageTest@776aec5c]" started-at="2025-05-30T02:38:21 IST" name="setup" finished-at="2025-05-30T02:38:26 IST" duration-ms="5134" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testClases.TC006_CartPageTest@776aec5c]" started-at="2025-06-18T00:36:14 IST" name="setup" finished-at="2025-06-18T00:36:22 IST" duration-ms="8547" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -16,18 +16,73 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verify_cartpage()[pri:0, instance:testClases.TC006_CartPageTest@776aec5c]" started-at="2025-05-30T02:38:26 IST" name="verify_cartpage" finished-at="2025-05-30T02:38:28 IST" duration-ms="2542" status="PASS">
+        <test-method signature="verify_cartpage()[pri:0, instance:testClases.TC006_CartPageTest@776aec5c]" started-at="2025-06-18T00:36:22 IST" name="verify_cartpage" finished-at="2025-06-18T00:36:24 IST" duration-ms="1482" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Exception occurred: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=137.0.3296.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a9c730224ecadbd8f08a2991c5722e88, clickElement {id=f.8F95601BD2AF9EBA8AD4A161B27158BE.d.534EE1BB09754AC084D4C381071D6BCC.e.112}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54668}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54668/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a9c730224ecadbd8f08a2991c5722e88)] -> xpath: //button[@type='button']//i[@class='fa fa-shopping-cart']]
+Session ID: a9c730224ecadbd8f08a2991c5722e88]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Exception occurred: stale element reference: stale element not found
+  (Session info: MicrosoftEdge=137.0.3296.83)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a9c730224ecadbd8f08a2991c5722e88, clickElement {id=f.8F95601BD2AF9EBA8AD4A161B27158BE.d.534EE1BB09754AC084D4C381071D6BCC.e.112}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 137.0.3296.83, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:54668}, msedge: {msedgedriverVersion: 137.0.3296.83 (24e00e9cccf2..., userDataDir: C:\Users\Pravin\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54668/devtoo..., se:cdpVersion: 137.0.3296.83, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a9c730224ecadbd8f08a2991c5722e88)] -> xpath: //button[@type='button']//i[@class='fa fa-shopping-cart']]
+Session ID: a9c730224ecadbd8f08a2991c5722e88
+at org.testng.Assert.fail(Assert.java:111)
+at testClases.TC006_CartPageTest.verify_cartpage(TC006_CartPageTest.java:60)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_cartpage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClases.TC006_CartPageTest@776aec5c]" started-at="2025-05-30T02:38:28 IST" name="tearDown" finished-at="2025-05-30T02:38:28 IST" duration-ms="256" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testClases.TC006_CartPageTest@776aec5c]" started-at="2025-06-18T00:36:24 IST" name="tearDown" finished-at="2025-06-18T00:36:25 IST" duration-ms="1278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -19,7 +19,7 @@ public class TC005_DetailPageTest extends BaseClass{
 	@Test
 	public void verify_cart() {
 		
-		logger.info("******Staring TC005_cartPageTest*******");
+		logger.info("******Staring TC005_DetailPageTest*******");
 		
 		try
 		{
@@ -52,7 +52,7 @@ public class TC005_DetailPageTest extends BaseClass{
 		
 		pp.setQuantity();
 		pp.ClickAddtoCart();
-		
+		Thread.sleep(3000);
 		String conmsg =pp.getConfirmationMsg();
 		Assert.assertTrue(conmsg.contains("Success: You have added iPhone to your shopping cart!"), "Add to Cart failed!");
 		//Assert.assertTrue(conmsg.contains("Success: You have added iPhone to your shopping cart!"), "Add to Cart failed!");
@@ -68,7 +68,7 @@ public class TC005_DetailPageTest extends BaseClass{
 			
 		}
 	
-	logger.info("******Finish TC005_cartPageTest*******");
+	logger.info("******Finish TC005_DetailPageTest*******");
 	}
 	
 	

@@ -42,7 +42,7 @@ public class BaseClass {
 	 
 	@BeforeClass(groups= {"Sanity","Regression","Master"})
 	@Parameters({"os", "browser"})
-	 public void setup(@Optional("windows") String os,@Optional("chrome") String br) throws IOException 
+	 public void setup(@Optional("windows") String os,@Optional("edge") String br) throws IOException 
 	{
 		
 		
